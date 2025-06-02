@@ -1,104 +1,69 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).  
+Frontend Mentor challenges help improve coding skills by building realistic front-end projects.
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## 📸 Screenshot
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+![Screenshot](./design/desktop-design.jpg) 
+![Screenshot](./design/mobile-design.jpg) 
 
-## Overview
 
-### Screenshot
+---
 
-![](./screenshot.jpg)
+## 🔗 Live Demo
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+- 💻 Live Site: [https://anougeek.github.io/recipe-page-frontendMentor](https://anougeek.github.io/recipe-page-frontendMentor)
+- 📁 GitHub Repo: [AnouGeek/recipe-page-frontendMentor](https://github.com/AnouGeek/recipe-page-frontendMentor)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+---
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## 🛠️ Built With
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- Semantic HTML5
+- Tailwind CSS (via CDN)
+- Mobile-first responsive layout
+- Flexbox and Grid
 
-### Links
+---
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+## 💡 What I Learned
 
-## My process
+Through this challenge, I learned how to:
 
-### Built with
+- Structure a responsive layout with Tailwind utility classes
+- Keep HTML semantic and accessible
+- Manage spacing and responsive behavior without writing custom CSS
+- Improve basic SEO and alt text usage
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+---
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## 🚀 Continued Development
 
-### What I learned
+In future projects, I plan to:
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Set up Tailwind with PostCSS and a local build process
+- Use more components and reusable Tailwind utilities
+- Explore accessibility best practices in more depth
 
-To see how you can add code snippets, see below:
+---
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+## 🧰 Useful Resources
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- [Tailwind CSS Docs](https://tailwindcss.com/docs) – for utility class explanations
+- [Frontend Mentor Community](https://www.frontendmentor.io/community) – help and feedback
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+---
 
-### Continued development
+## 👨‍💻 Author
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Frontend Mentor – [@AnouGeek](https://www.frontendmentor.io/profile/AnouGeek)
+- GitHub – [@AnouGeek](https://github.com/AnouGeek)
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+---
 
-### Useful resources
+## 🙏 Acknowledgments
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to the Frontend Mentor 
