@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simple omelette recipe built with Tailwind CSS. Frontend Mentor challenge."
+    />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -17,16 +21,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="bg-orange-100">
-    <main class="bg-gray-50 max-w-xl mx-auto">
+    <main
+      class="bg-gray-50 max-w-xl mx-auto lg:mt-28 lg:mb-32 lg:p-12 lg:rounded-2xl shadow-lg"
+    >
       <!-- Omelette img -->
       <img
         src="assets/images/image-omelette.jpeg"
-        alt="Omelette image"
-        class="w-full object-cover mb-8"
+        alt="Omelette plate"
+        class="w-full object-cover mb-8 rounded-xl"
       />
 
-      <div class="max-w-sm mx-auto pb-12">
-        <h1 class="text-3xl font-bold mb-6">Simple Omelette Recipe</h1>
+      <!-- Simple Omelette Recipe -->
+      <div class="max-w-sm mx-auto pb-12 lg:max-w-xl">
+        <h1 class="text-3xl font-bold mb-6 lg:text-4xl">
+          Simple Omelette Recipe
+        </h1>
         <p class="text-gray-700 mb-6">
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
@@ -35,9 +44,7 @@
 
         <!-- Preparation time -->
         <section class="mb-6 bg-pink-100 p-5 rounded-xl">
-          <h2 class="text-xl text-[#7b284f] font-bold mb-3">
-            Preparation time
-          </h2>
+          <h2 class="text-xl text-rose-900 font-bold mb-3">Preparation time</h2>
           <ul class="list-disc ml-6 space-y-2 tracking-tight text-gray-700">
             <li><strong>Total</strong>: Approximately 10 minutes</li>
             <li><strong>Preparation</strong>: 5 minutes</li>
@@ -64,60 +71,60 @@
         <!-- Instructions -->
         <section class="mb-6">
           <h2 class="text-2xl mb-4 text-orange-950 font-bold">Instructions</h2>
-          <ul class="space-y-3 tracking-tight text-gray-700">
-            <div class="flex gap-5 justify-center">
+          <div class="space-y-3 tracking-tight text-gray-700">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">1.</span>
-              <li>
+              <p>
                 <strong>Beat the eggs</strong>: In a bowl, beat the eggs with a
                 pinch of salt and pepper until they are well mixe You can add a
                 tablespoon of water or milk for a fluffier texture.
-              </li>
+              </p>
             </div>
-            <div class="flex gap-5 justify-center">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">2.</span>
-              <li>
+              <p>
                 <strong>Heat the pan</strong>: Place a non-stick frying pan over
                 medium heat and add butter or oil.
-              </li>
+              </p>
             </div>
-            <div class="flex gap-5 justify-center">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">3.</span>
-              <li>
+              <p>
                 <strong>Cook the omelette</strong>: Once the butter is melted
                 and bubbling, pour in the eggs. Tilt the pan to ensure the eggs
                 evenly coat the surface.
-              </li>
+              </p>
             </div>
-            <div class="flex gap-5 justify-center">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">4.</span>
-              <li>
+              <p>
                 <strong>Add fillings (optional)</strong>: When the eggs begin to
                 set at the edges but are still slightly runny in the middle,
                 sprinkle your chosen fillings over one half of the omelette.
-              </li>
+              </p>
             </div>
-            <div class="flex gap-5 justify-center">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">5.</span>
-              <li>
+              <p>
                 <strong>Fold and serve</strong>: As the omelette continues to
                 cook, carefully lift one edge and fold it over the fillings. Let
                 it cook for another minute, then slide it onto a plate.
-              </li>
+              </p>
             </div>
-            <div class="flex gap-5 justify-center">
+            <div class="flex gap-5">
               <span class="text-orange-950 font-bold">6.</span>
-              <li>
+              <p>
                 <strong>Enjoy</strong>: Serve hot, with additional salt and
                 pepper if needed.
-              </li>
+              </p>
             </div>
-          </ul>
+          </div>
         </section>
 
         <hr class="mb-6 border-gray-300" />
 
         <!-- Nutrition -->
-        <section class="">
+        <section>
           <h2 class="text-2xl mb-4 text-orange-950 font-bold">Nutrition</h2>
           <p class="text-gray-700 mb-6">
             The table below shows nutritional values per serving without the
@@ -125,19 +132,20 @@
           </p>
 
           <!-- Grid -->
-          <div class="grid grid-cols-2 border-b border-gray-300 py-2">
+
+          <div class="grid grid-cols-2 border-b border-gray-300 py-2 lg:px-6">
             <span>Calories</span
             ><span class="text-orange-950 font-medium">277kcal</span>
           </div>
-          <div class="grid grid-cols-2 border-b border-gray-300 py-2">
+          <div class="grid grid-cols-2 border-b border-gray-300 py-2 lg:px-6">
             <span>Carbs</span
             ><span class="text-orange-950 font-medium">0g</span>
           </div>
-          <div class="grid grid-cols-2 border-b border-gray-300 py-2">
+          <div class="grid grid-cols-2 border-b border-gray-300 py-2 lg:px-6">
             <span>Protein</span
             ><span class="text-orange-950 font-medium">20g</span>
           </div>
-          <div class="grid grid-cols-2 border-gray-300 py-2">
+          <div class="grid grid-cols-2 border-gray-300 py-2 lg:px-6">
             <span>Fat</span><span class="text-orange-950 font-medium">22g</span>
           </div>
         </section>
